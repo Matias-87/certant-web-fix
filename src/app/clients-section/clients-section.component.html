@@ -1,0 +1,21 @@
+<section id="clients">
+    <div class="h-100">
+        <div class="row align-items-center h-100">
+            <div class="container rounded mt-5">
+                <hr class="section-hr mx-auto">
+                <h2 class="section-title text-center mt-0">
+                    <span data-shadow-text="Want to See More?">CLIENTES</span>
+                </h2>
+                <div class="icons-container">
+                    <ul class="icons-container__icons">
+                        @for (logo of clientLogos; track $index) {
+                        <li>
+                            <img [src]="logo[0]" [alt]="logo[1]">
+                        </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -5,7 +5,6 @@ import { ClientsSectionComponent } from "./clients-section/clients-section.compo
 @Component({
   selector: 'app-root',
   standalone: true,
-  // imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
   imports: [ClientsSectionComponent]

@@ -26,8 +26,8 @@
     mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
 
     img {
-        height: auto;
-        width: 70px;
+        max-height: 72px;
+        width: auto;
         flex-shrink: 0;
         filter: grayscale(100%);
     }
@@ -39,7 +39,7 @@
         padding: 0;
         margin: 0;
         width: max-content;
-        animation: scroll 35s linear infinite;
+        animation: scroll 60s linear infinite;
 
         li {
             display: flex;

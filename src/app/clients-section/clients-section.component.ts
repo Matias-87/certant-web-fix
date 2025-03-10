@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-clients-section',
   standalone: true,
-  imports: [],
   templateUrl: './clients-section.component.html',
   styleUrl: './clients-section.component.scss'
 })

@@ -1,27 +1,15 @@
 # CertantWebFix
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+El sitio web de Certant presenta un error en la animacion del slider que contine los logos de los clientes
 
-## Development server
+## Certant Sitio Web Oficial 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Como se puede ver en el video a continuacion la animacion se corta repentinamente y corta el efecto de slider infinito, ademas de tener algunos logos superpuestos y espaciados irregulares en algunas resoluciones.
 
-## Code scaffolding
+![Recording 2025-03-10 153555](https://github.com/user-attachments/assets/d611a076-5d42-4fd2-9de1-1ba50026df36)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Arreglo
 
-## Build
+Soluciones los problemas anteriores para que la web tenga la apariencia que cooresponde, como se puede ver a continuacion. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Recording 2025-03-10 162810](https://github.com/user-attachments/assets/79493289-b20e-4dea-8325-aa27ae96f3ba)
